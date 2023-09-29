@@ -9,10 +9,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Car {
-    String model;
-    int serial;
-    String colour;
-
+    private String model;
+    private int serial;
+    private String colour;
 
 
 }
